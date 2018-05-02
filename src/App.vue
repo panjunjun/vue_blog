@@ -22,6 +22,10 @@ export default {
 </script>$
 
 <style>
+html, body, #app {
+  height: 100%
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -29,9 +33,13 @@ export default {
   text-align: center;
   color: #2c3e50;
   /* width: 900px; */
-  height: 768px;
-  margin: 0;
+  /* height: 768px; */
   position: relative;
+  /* top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; */
+  margin: 0;
   /* background: #eee; */
 }
 </style>

@@ -10,6 +10,7 @@
 
 <style scoped>
 footer {
+    z-index: 10;
     display: flex;
     justify-content: center;
     width: 100%;
